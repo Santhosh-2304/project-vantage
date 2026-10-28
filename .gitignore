@@ -1,0 +1,17 @@
+# Raw and processed market data
+data/raw/
+data/processed/
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# Secrets
+.env
+.env.*
+
+# macOS
+.DS_Store
