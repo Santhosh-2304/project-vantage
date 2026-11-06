@@ -1,0 +1,33 @@
+
+version: 2
+
+models:
+  - name: stg_xauusd_candles
+    description: "Standardised and enriched XAU/USD 30-minute candle data."
+
+    columns:
+      - name: candle_timestamp
+        description: "UTC timestamp marking the candle."
+        data_tests:
+          - not_null
+          - unique
+
+      - name: open
+        data_tests:
+          - not_null
+
+      - name: high
+        data_tests:
+          - not_null
+
+      - name: low
+        data_tests:
+          - not_null
+
+      - name: close
+        data_tests:
+          - not_null
+
+      - name: candle_range
+        data_tests:
+          - not_null

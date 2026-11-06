@@ -1,0 +1,12 @@
+
+version: 2
+
+sources:
+  - name: vantage_raw
+    database: vantage-2304
+    schema: vantage_raw
+    description: "Raw XAU/USD market data ingested from Twelve Data."
+
+    tables:
+      - name: xauusd_candles
+        description: "Raw 30-minute XAU/USD OHLC candle records."

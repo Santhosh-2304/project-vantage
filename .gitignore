@@ -1,6 +1,12 @@
 # Raw and processed market data
 data/raw/
 data/processed/
+data/bigquery/
+
+# Generated pipeline artifacts
+logs/
+data/validation_reports/
+data/pipeline_reports/
 
 # Python
 __pycache__/
